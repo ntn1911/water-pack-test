@@ -1,0 +1,26 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "mw2023\weapons\TMP_SD\att_ammo_9p_rgb"
+    "$bumpmap" "mw2023\weapons\TMP_SD\att_ammo_9p_n"
+   
+	"$nocull" "1"
+	
+	"$selfillum" "1"
+	
+	// PHONG SHADING
+"$phong" 		"1"
+"$phongalbedotint"			"1"
+"$phongalbedoboost"			"5"
+"$phongboost" "1"
+"$phongfresnelranges" "[1.5 4.8 7.9]"
+	$normalmapalphaphongmask    	1
+
+	// ENVIRONMENT REFLECTION
+    $envmap	"env_cubemap"
+"$envmapfresnel" 			"1"
+"$envmapFresnelMinMaxExp"		"[1 1 1]"
+"$envmaptint" "[.05 .05 .05]"
+
+}

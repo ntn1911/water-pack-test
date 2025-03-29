@@ -1,0 +1,27 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models\codmw2022\weapons\p90\att_ammo_5x28"
+"$bumpmap" "models\codmw2022\weapons\p90\att_ammo_5x28"
+
+	"$nocull" "1"
+	
+	// PHONG SHADING
+"$phong" 		"1"
+"$phongalbedotint"			"1"
+"$phongalbedoboost"			"5"
+"$phongboost" "1"
+"$phongfresnelranges" "[1.5 4.8 7.9]"
+	$normalmapalphaphongmask    	1
+
+	// ENVIRONMENT REFLECTION
+    $envmap	"env_cubemap"
+"$envmapfresnel" 			"1"
+"$envmapFresnelMinMaxExp"		"[1 1 1]"
+"$envmaptint" "[.05 .05 .05]"
+
+
+
+
+
+
+}

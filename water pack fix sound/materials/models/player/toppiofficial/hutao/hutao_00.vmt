@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/toppiofficial/hutao/hutao_00"
+	"$lightwarptexture" "models/player/toppiofficial/shared/shader/toon_2"
+	"$halflambert" "1"
+	"$nodecal" "1"
+}

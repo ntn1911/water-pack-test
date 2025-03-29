@@ -1,0 +1,48 @@
+"VertexLitGeneric"
+{
+    "$basetexture" "models\CoDMW2022\Weapons\iso45\miaobian1"
+	
+	$selfillum 1
+Proxies
+{
+PlayerTeam
+{
+team 5 
+resultVar $proxTeam
+}
+Subtract
+{
+srcVar1 $one
+srcVar2 $proxRange
+resultVar $alpha
+}
+Multiply
+{
+srcVar1 $alpha
+srcVar2 $proxTeam
+resultVar $alpha
+}
+TextureScroll
+{
+texturescrollvar $baseTextureTransform
+texturescrollrate 0.4
+texturescrollangle 115.00
+}
+		"Sine"	//透明~半透明
+		{
+			"resultVar"	"$alpha"
+			"sineperiod"	"10"
+			"sinemin"	"-1"	//最小值 0 为全透明
+			"sinemax"	"1.99" 		//最大值 1 为不透明
+		}
+		"Clamp"
+			{
+			min           "0"
+			max           "2"
+			srcVar1       "$alpha"
+			resultVar     "$alpha"
+			}
+	}
+
+"GPU>=2?$phong" 1
+}

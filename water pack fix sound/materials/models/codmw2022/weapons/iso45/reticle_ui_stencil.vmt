@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "models\codmw2022\weapons\iso45\xmaterial_79cc5c6ea0f7d11_rgb"
+	"$translucent" 	"1"
+        "$additive" "1"
+	"$selfillum" "1"
+		
+
+}

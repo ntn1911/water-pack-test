@@ -1,0 +1,23 @@
+
+"VertexlitGeneric"
+{
+	"$basetexture""cw\drake\stock"
+
+
+"$bumpmap"	"cw\drake\stock_n"
+
+	"$phong" "1"
+	"$phongboost" "0.4"
+	"$phongexponent" "20"
+	"$phongalbedotint" "1"
+				
+	"$phongfresnelranges"	"[ .02 0.12 0.8]"
+
+
+	"$nocull" "1"
+
+
+}
+
+
+

@@ -1,0 +1,12 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models\codmw2022\weapons\iso45\CH0155_Hair"
+ 
+	 $selfillum	"1"			
+     $selfillummask	"models\codmw2022\weapons\iso45\mb"
+	
+	"$phongexponenttexture" "models\codmw2022\weapons\iso45\exponent"
+	
+	$envmapfresnel 1
+    $diffuseexp     "1"
+}

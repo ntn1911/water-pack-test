@@ -1,0 +1,7 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/uuz/yoyal8/KaguraNana_02"
+	"$lightwarptexture"		"models/player/uuz/public/lightwarp_2"
+	"$nodecal" 1
+	"$nocull" 1
+}

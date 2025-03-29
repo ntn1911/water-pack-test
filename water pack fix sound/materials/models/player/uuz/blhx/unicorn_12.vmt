@@ -1,0 +1,9 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/uuz/blhx/Unicorn_02"
+	"$lightwarptexture"		"models/player/uuz/public/lightwarp_2"
+	"$nodecal" 1
+	"$nocull" 1
+
+	"$halflambert"	1
+}

@@ -1,0 +1,35 @@
+"VertexLitGeneric"
+{
+"$basetexture" "cw\drake\mb"
+$selfillum 1
+//$selfillumtint "0.3 0.3 0.3"	
+
+Proxies
+{
+	PlayerTeam
+		{
+			team 5 
+			resultVar $proxTeam
+		}
+	Subtract
+		{
+			srcVar1 $one
+			srcVar2 $proxRange
+			resultVar $alpha
+		}
+	Multiply
+		{
+			srcVar1 $alpha
+			srcVar2 $proxTeam
+			resultVar $alpha
+		}
+	TextureScroll
+		{
+			texturescrollvar $baseTextureTransform
+			texturescrollrate 0.1
+			texturescrollangle 180		\\其中0度表示向右滚动，90度表示向上滚动，180度表示向左滚动，270度表示向下滚动
+		}
+}
+
+"GPU>=2?$phong" 1
+}

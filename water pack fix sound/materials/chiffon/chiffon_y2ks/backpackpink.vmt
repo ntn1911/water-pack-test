@@ -1,0 +1,16 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "Chiffon/Chiffon_Y2KS/BackpackPink"
+	"$bumpmap" "Chiffon/Chiffon_Y2KS/normal"      
+	"$lightwarptexture" "Chiffon/Chiffon_Y2KS/basewarp"	  
+    "$nocull" 1        
+	"$nodecal" 1       
+	"$phong" "1"
+	"$phongalbedotint" "1"                
+	"$halflambert" "1"
+	"$phongboost"	".04"                 
+	"$PhongExponent" "4"                
+	"$phongfresnelranges"	"[1 .1 .1]"
+$selfillum 1
+
+}

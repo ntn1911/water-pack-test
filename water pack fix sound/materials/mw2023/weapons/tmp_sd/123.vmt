@@ -1,0 +1,9 @@
+"UnlitGeneric"
+{
+	"$basetexture" "mw2023\weapons\tmp_sd\123"
+	"$translucent" 	"1"
+        "$additive" "1"
+	"$selfillum" "1"
+		
+
+}

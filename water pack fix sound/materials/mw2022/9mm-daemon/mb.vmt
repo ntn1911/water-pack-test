@@ -1,0 +1,33 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "MW2022\9MM-Daemon\mb"
+
+	"$selfillum" "1"
+	"$additive" "1"
+
+	"Proxies"
+    {
+		"TextureScroll"
+        {
+            "texturescrollvar" "$baseTextureTransform"
+            "texturescrollrate" "0.3"
+            "texturescrollangle" "15"
+        }
+		"Sine"
+		{
+			"resultVar" "$alpha"
+			"sineperiod" "10"
+			"timeoffset" "2.5"
+			"sinemin" "49"
+			"sinemax" "-0.1"
+		}
+		AnimatedTexture
+		{
+			animatedTextureVar $basetexture
+			animatedTextureFrameNumVar $frame
+			animatedTextureFrameRate 0.2
+		}
+	}
+}

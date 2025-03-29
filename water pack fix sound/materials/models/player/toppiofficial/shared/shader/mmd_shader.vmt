@@ -1,0 +1,11 @@
+"VertexLitGeneric"
+{
+	"$lightwarptexture" "models/player/toppiofficial/shared/shader/toon_1"
+	"$phongexponenttexture" "models/player/toppiofficial/shared/shader/phong_exp"
+	"$nocull" "1"
+	"$phong" "1"
+	"$phongfresnelranges" "[0 0 5]"
+	"$phongalbedotint" "1"
+	"$phongboost" "5"
+	"$nodecal" "1"
+}

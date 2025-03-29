@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/player/uuz/yoyal8/mana_02"
+	"$lightwarptexture"		"models/player/uuz/public/lightwarp_2"
+	"$nodecal" 1
+	"$nocull" 1
+	"$translucent" 1
+}

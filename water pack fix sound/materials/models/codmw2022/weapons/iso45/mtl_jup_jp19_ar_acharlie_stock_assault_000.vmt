@@ -1,0 +1,33 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "models\codmw2022\weapons\iso45\mtl_jup_jp19_ar_acharlie_stock_assault_000_rgb"
+    "$bumpmap" "models\codmw2022\weapons\iso45\mtl_jup_jp19_ar_acharlie_stock_assault_000_n"
+   
+    "$phong" "1"
+	"$phongboost" "5"
+	"$phongexponent" "30"
+	
+	$selfillum	"1"			
+    $selfillummask	"models\codmw2022\weapons\iso45\mb"
+	
+
+	"$phongfresnelranges" "[2 1.2 8]"
+	"$phongalbedotint" "1"
+	"$normalmapalphaenvmapmask" "1"
+
+
+	"$phongexponenttexture" "models\codmw2022\weapons\iso45\exponent"
+	
+	$envmapfresnel 1
+    $lightwarptexture     "models\codmw2022\weapons\iso45\DDM4V5_LW"
+    $diffuseexp     "1"
+	
+
+ $envmap                     "env_cubemap"
+    $basemapalphaenvmapmask     "1"
+    $envmaptint                 "[ .04 .04 .04 ]"
+
+        "$nocull" 1
+}

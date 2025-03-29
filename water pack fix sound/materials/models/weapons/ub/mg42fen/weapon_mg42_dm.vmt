@@ -1,0 +1,18 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/weapons/ub/mg42fen/weapon_mg42_dm"
+	"$bumpmap" "models/weapons/ub/mg42fen/weapon_mg42_nm"
+	"$phong" "1"
+	"$phongboost" "4"
+	"$phongalbedoboost" "60"
+	"$phongfresnelranges" "[.8 .8 1]"
+	"$nocompress" "1"
+	"$basemapalphaphongmask" "1"
+	"$envmap" "env_cubemap"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[.035 .035 .035]"
+	"$phongalbedotint" "1"
+	"$phongdisablehalflambert" "1"
+	"$nocull" "1"
+	"$nodecal" "1"
+}

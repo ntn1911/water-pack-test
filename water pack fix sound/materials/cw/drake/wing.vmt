@@ -1,0 +1,40 @@
+
+"VertexlitGeneric"
+{
+	"$basetexture""cw\drake\wingb"
+
+
+"$bumpmap"	"cw\drake\wing_n1"
+
+	//$phongexponenttexture 
+	"$lightwarptexture" "cw\drake\p"
+	
+	"$blendtintbybasealpha" 	"1"
+	
+	"$phong"					"1"
+	"$phongalbedotint" 			"1"
+	"$phongboost"				"5"
+	"$phongalbedoboost"			"15"
+	"$phongfresnelranges"		"[0.5 1 1.1]"
+	//"$phongtint" 				"[2.12 1.75 .55]"
+	
+	"$basemapalphaenvmapmask" 	"1"
+	
+	"$envmap"					"env_cubemap"
+	"$envmaptint"				"[1.25 1.25 1.25]"
+	"$envmapFresnelMinMaxExp"	"[0 1 2]"  
+	"$envmapfresnel"			"1"
+	
+	"$selfillum"					"1"
+	"$halflambert" 	   				"1" 
+	"$nodecal"						"1"
+	//"$ambientocclusion" 			"1"
+	//"$nocompress" 					"1"
+	
+	$rimlight					1			//添加边缘光
+	$rimlightexponent			100			//边缘照明的 phong 分量的指数。边缘指数定义了高光的“紧密度”。较高的指数会导致更小、更紧密的高光，而较低的指数会导致更宽、更平坦的高光
+	$rimlightboost				50
+}
+
+
+

@@ -1,0 +1,60 @@
+"Weapon_TMP.Single"
+{
+	"channel"		"CHAN_WEAPON"
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"			"97,102"
+
+
+		"wave"		"weapons\FJXMP9\smg_fire_1.wav"
+}
+
+"SMG_Silenced.ClipIn"
+{
+	"channel"		"CHAN_USER_BASE_3"  
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\FJXMP9\smg_clip_in_1.wav" 
+}
+
+"SMG_Silenced.ClipOut"
+{
+	"channel"		"CHAN_USER_BASE_3"  
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\FJXMP9\smg_clip_out_1.wav" 
+}
+
+"SMG_Silenced.ClipLocked"
+{
+	"channel"		"CHAN_USER_BASE_3"  
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\FJXMP9\smg_clip_locked_1.wav" 
+}
+
+"SMG_Silenced.SlideBack"
+{
+	"channel"		"CHAN_USER_BASE_3"  
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\FJXMP9\smg_slideback_1.wav" 
+}
+
+"SMG_Silenced.SlideForward"
+{
+	"channel"		"CHAN_USER_BASE_3"  
+	"volume"		"1.0"
+	"CompatibilityAttenuation"	"1.0"
+	"pitch"		"PITCH_NORM"
+
+	"wave"			"weapons\FJXMP9\smg_slideforward_1.wav" 
+}

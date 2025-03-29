@@ -1,0 +1,19 @@
+"VertexlitGeneric"
+{
+	"$basetexture" "models/player/uuz/blhx/illustrious_lit/illustrious_02"
+	"$lightwarptexture"		"models/player/uuz/public/lightwarp_2"
+	"$nodecal" 1
+	"$translucent" 1
+
+	"$halflambert"	1
+	
+	"$phong" "1"
+	"$phongboost"	"1.0"
+	"$phongalbedotint" "1"
+	
+	"$envmaptint" "[0.2 0.2 0.2]"
+	"$envmap" "env_cubemap"
+	"$normalmapalphaenvmapmask" 1
+	"$envmapsaturation" 1
+	"$envmapcontrast" 1
+}

@@ -1,0 +1,58 @@
+//if you don't know what a parameter does, visit:
+//https://developer.valvesoftware.com/wiki/$phong
+"VertexLitGeneric"
+{
+    "$basetexture" "MW2022\9MM-Daemon\xmaterial_6a8ae2e476fa98d5_rgb"
+    "$bumpmap" "MW2022\9MM-Daemon\normal"
+
+	"$selfillum" "1"
+	"$color2" "[ .5 .5 .5 ]"
+	"$blendtintbybasealpha" "1"
+	"$phong" "1"
+	"$phongboost" "30"
+	"$phongexponent" "15"
+	"$phongalbedotint" "1"
+	"$PhongFresnelRanges" "[ .1 .5 1 ]"
+	"$envmap" "env_cubemap"
+	"$basemapalphaenvmapmask" "1"
+	"$envmapfresnel" "1"
+	"$envmaptint" "[ 0.5 0.5 0.5 ]"
+
+	"$phongexponenttexture" "MW2022\9MM-Daemon\exponent"
+
+	"$detail" "MW2022\9MM-Daemon\xmaterial_6a8ae2e476fa98d5_rgb2"
+	
+	"$detailscale" "1"      
+	"$detailblendmode" "2"
+
+    Proxies
+    {
+		AnimatedTexture
+		{
+			animatedTextureVar $basetexture
+			animatedTextureFrameNumVar $frame
+			animatedTextureFrameRate 0.05
+		}
+		AnimatedTexture
+		{
+			animatedTextureVar $detail
+			animatedTextureFrameNumVar $detailframe
+			animatedTextureFrameRate 0.1
+		}
+		"Sine"
+		{
+			"resultVar"	"$detailblendfactor"
+			"sineperiod"	"20"
+			"timeoffset"	"15"
+			"sinemin"		"-4"
+			"sinemax"		"5"
+		}
+		"Clamp"
+		{
+			"min"           "0"
+			"max"           "1"
+			"srcVar1"       "$detailblendfactor"
+			"resultVar"     "$detailblendfactor"
+		}
+	}
+}
